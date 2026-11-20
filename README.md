@@ -7,7 +7,7 @@
 在 Codex 中使用内置安装器：
 
 ```text
-使用 $skill-installer 安装 https://github.com/GuiDI-666/project-code-discipline/tree/v1.8.0/skills/project-code-discipline
+使用 $skill-installer 安装 https://github.com/GuiDI-666/project-code-discipline/tree/v1.9.0/skills/project-code-discipline
 ```
 
 也可从 [Releases](https://github.com/GuiDI-666/project-code-discipline/releases) 下载 Skill 压缩包，将解压后的 `project-code-discipline` 目录放入 `~/.agents/skills/`。安装后确认该目录直接包含 `SKILL.md`。已安装旧版时，在同一安装位置更新即可。
@@ -29,5 +29,7 @@ Skill 包含项目分析、架构提炼、定义与用法核对、配置风格�
 ## 开发与贡献
 
 从仓库根目录运行 `python scripts/validate.py`，检查 Skill 元数据、仓库内链接和许可证。规则修改请附上触发场景、预期行为和适用范围。通过结构校验后，按需用独立样本验证实际行为。详见 [贡献指南](CONTRIBUTING.md)。
+
+可公开复跑的行为评估样本见 [evals](evals/README.md)。这些样本用于检验具体决策，不代表 Skill 在任意项目中都能保证结果。
 
 本项目采用 [MIT 许可证](LICENSE)。
