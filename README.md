@@ -7,7 +7,7 @@
 在 Codex 中使用内置安装器：
 
 ```text
-使用 $skill-installer 安装 https://github.com/GuiDI-666/project-code-discipline/tree/v1.9.0/skills/project-code-discipline
+使用 $skill-installer 安装 https://github.com/GuiDI-666/project-code-discipline/tree/v1.10.0/skills/project-code-discipline
 ```
 
 也可从 [Releases](https://github.com/GuiDI-666/project-code-discipline/releases) 下载 Skill 压缩包，将解压后的 `project-code-discipline` 目录放入 `~/.agents/skills/`。安装后确认该目录直接包含 `SKILL.md`。已安装旧版时，在同一安装位置更新即可。
